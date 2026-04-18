@@ -1,0 +1,17 @@
+mongo:
+  uri: mongodb://localhost:27017
+  database: Tulip
+
+spawn:
+  world: world
+  x: 54.5
+  y: 118.0
+  z: 101.5
+  yaw: 0.01586914
+  pitch: 0.04726013
+
+listeners:
+  weather-change: false
+
+commands:
+  ffa-join: false

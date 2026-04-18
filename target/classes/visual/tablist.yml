@@ -1,0 +1,10 @@
+tablist:
+  enabled: true
+  header:
+    - ""
+    - "&eYou're playing &d&lEU FFA &eon &d&ltulip.club"
+    - ""
+  footer:
+    - ""
+    - "&eBuy ranks and more here: &d&lstore.tulip.club"
+    - ""

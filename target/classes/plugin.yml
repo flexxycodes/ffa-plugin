@@ -1,5 +1,5 @@
 name: FFA Core+
-version: '${project.version}'
+version: '1.2'
 main: me.emmy.tulip.Tulip
 author: Emmy
 description: A Minemen-styled Free For All plugin - FFA Core+

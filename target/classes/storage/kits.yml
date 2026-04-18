@@ -1,0 +1,485 @@
+kits:
+  Classic:
+    description: '&eDescription of the &dClassic &ekit'
+    items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+      - ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      - ==: org.bukkit.inventory.ItemStack
+        type: BOW
+      - ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        amount: 8
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 16
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+    armor:
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BOOTS
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_LEGGINGS
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_HELMET
+    icon: DIAMOND_SWORD
+    icondata: 0
+    enabled: true
+  NoDebuff:
+    description: '&eDescription of the &dNoDebuff &ekit'
+    items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+            DURABILITY: 3
+            FIRE_ASPECT: 2
+          repair-cost: 7
+      - ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+        amount: 16
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8259
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+    armor:
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+            PROTECTION_FALL: 4
+          repair-cost: 15
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+          repair-cost: 3
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+          repair-cost: 3
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+          repair-cost: 3
+    icon: POTION
+    icondata: 16421
+    enabled: true
+  Soup:
+    description: '&eDescription of the &dSoup &ekit'
+    items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 1
+          repair-cost: 1
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+    armor:
+      - ==: org.bukkit.inventory.ItemStack
+        type: IRON_BOOTS
+      - ==: org.bukkit.inventory.ItemStack
+        type: IRON_LEGGINGS
+      - ==: org.bukkit.inventory.ItemStack
+        type: IRON_CHESTPLATE
+      - ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+    icon: MUSHROOM_SOUP
+    icondata: 0
+    enabled: true
+  FistFight:
+    description: §eDescription of the §dFistFight §ekit.
+    items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: STICK
+      - ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+    armor:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        damage: -1
+        amount: 0
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        damage: -1
+        amount: 0
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        damage: -1
+        amount: 0
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        damage: -1
+        amount: 0
+    icon: COOKED_BEEF
+    icondata: 0
+    enabled: true
+  Archer:
+    description: §eDescription of the §dArcher §ekit.
+    items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DURABILITY: 3
+            ARROW_INFINITE: 1
+          repair-cost: 3
+      - ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+      - ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+    armor:
+      - ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            DURABILITY: 3
+          repair-cost: 1
+          color:
+            ==: Color
+            RED: 127
+            BLUE: 178
+            GREEN: 63
+      - ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            DURABILITY: 3
+          repair-cost: 1
+          color:
+            ==: Color
+            RED: 127
+            BLUE: 178
+            GREEN: 63
+      - ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            DURABILITY: 3
+          repair-cost: 1
+          color:
+            ==: Color
+            RED: 127
+            BLUE: 178
+            GREEN: 63
+      - ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            DURABILITY: 3
+          repair-cost: 1
+          color:
+            ==: Color
+            RED: 127
+            BLUE: 178
+            GREEN: 63
+    icon: BOW
+    icondata: 0
+    enabled: true

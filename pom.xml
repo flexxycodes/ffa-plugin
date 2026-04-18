@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.emmy</groupId>
-    <artifactId>Tulip</artifactId>
+    <artifactId>FFA-Core-Plus</artifactId>
     <version>1.2</version>
     <packaging>jar</packaging>
-    <name>Tulip</name>
-    <description>A custom Free For All plugin</description>
+    <name>FFA Core+</name>
+    <description>A custom Free For All plugin - FFA Core+</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -17,7 +17,7 @@
     </properties>
 
    <build>
-       <finalName>${project.name}-${project.version}</finalName>
+       <finalName>FFA-Core-Plus-${project.version}</finalName>
        <defaultGoal>clean install</defaultGoal>
     <plugins>
        <plugin>

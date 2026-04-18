@@ -1,0 +1,92 @@
+welcome-message:
+  - ""
+  - "&e&lEU FFA"
+  - " &7Different Maps, &7Stats, Shop"
+  - " &75+ Kits, &7Leaderboards, &7Events"
+  - ""
+  - " &e&l● &eTo play, &dright click you sword."
+  - " &e&l● &eTo change kit layout, &dright click your book."
+  - ""
+
+first-join-message:
+    - ""
+    - "&e&lWelcome to FFA!"
+    - " &7Upon first join, every player receives 1000 coins!"
+    - ""
+    - "&e&l● &eTo play, &dright click you sword."
+    - "&e&l● &eTo change kit layout, &dright click your book."
+    - ""
+    - "&eEnjoy your stay, &d{player}!"
+    - ""
+
+spawn:
+  set: "&aSuccessfully set the &bspawn &alocation."
+  teleported: "&aTeleported you to the &bspawn &alocation."
+
+profile-settings:
+  sidebar:
+    enabled: "&aYou can now see the sidebar."
+    disabled: "&cYou can no longer see the sidebar."
+  tablist:
+    enabled: "&aYou can now see the tablist."
+    disabled: "&cYou can no longer see the tablist."
+
+arena:
+  extend-info-command: false # If true, the "arena info" command will additionally show the arena's yaw and pitch values.
+  already-exists: "&cAn arena called &b{arena} &calready exists."
+  does-not-exist: "&cAn arena called &b{arena} &cdoes not exist."
+  created: "&aAn arena with the name &b{arena} &ahas been created."
+  deleted: "&aArena &b{arena} &ahas been deleted."
+  center-set: "&aThe center of &b{arena} &ahas been set."
+  safe-pos-set: "&aThe safe position &b{pos} &aof &b{arena} &ahas been set."
+  spawn-set: "&aSpawn set for arena &b{arena}&a."
+  center-not-set: "&cThe center of &b{arena} &cis not set."
+
+kit:
+  extend-info-command: true # If true, the "kit info" command will additionally show you the contents of the kit.
+  default-description: "&eDescription of the &d{kit} &ekit." # When creating a kit, this will be the default description.
+  already-exists: "&cA kit called &b{kit} &calready exists."
+  does-not-exist: "&cA kit called &b{kit} &cdoes not exist."
+  created: "&aA kit with the name &b{kit} &ahas been created."
+  deleted: "&aKit &b{kit} &ahas been deleted."
+  inventory-given: "&aYou've been given the &b{kit} &ainventory."
+  description-set: "&aThe description of &b{kit} &ahas been set."
+  icon-set: "&aThe icon of &b{kit} &ahas been set to &b{icon}&a."
+  inventory-set: "&aThe inventory of &b{kit} &ahas been set."
+  disabled: "&cThe kit &b{kit} &cis disabled."
+  toggled: "&aThe kit &b{kit} &ahas been &b{status}&a."
+
+ffa-match:
+  already-exists: "&cA match with the &b{kit} &ckit already exists."
+  does-not-exist: "&cA match with the &b{kit} &ckit does not exist."
+  created: "&aA match with the &b{kit} &ckit has been created."
+  deleted: "&aMatch with the &b{kit} &ckit has been deleted."
+  player-not-in-match: "&c{player} is not in a match."
+  kicked-player: "&aSuccessfully kicked &b{player} &afrom the ffa match."
+  kicked: "&aYou've been kicked from the ffa match."
+  max-players-set: "&aSuccessfully set the max players to &b{maxPlayers} &afor the &b{kit} &affa match."
+  not-in-match: "&cYou are not in a match."
+  already-in-match: "&cYou are already in a match."
+  enderpearl-cooldown: "&cYou must wait &b{time}s &cbefore using an enderpearl again."
+  cooldown-expired: "&aYou can now use enderpearls again."
+
+game:
+  join-message:
+    - ""
+    - "&e&lPlaying FFA"
+    - " &e&l● &eKit: &d{kit}"
+    - " &e&l● &eArena: &d{arena}"
+    - " &e&l● &eTo leave, do /leaveffa."
+    - ""
+  is-full: "&cThere are already {max-players} players in the game."
+  left: "&aYou've left the game."
+  killed:
+    no-killer: "&d{player} &ewas killed."
+    with-killer: "&d{player} &ewas killed by &d{killer}&e."
+  arrow-hit: "&d{victim} &eis now at &d{hearts}❤&e."
+  killstreak:
+    interval: 5 #If the value is 5, every 5 kills it will broadcast the message.
+    broadcast:
+      - ""
+      - "&d&l{player} &e&lis on a &d&l{streak} Kill Streak&e&l!"
+      - ""

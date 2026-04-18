@@ -1,9 +1,9 @@
-# 🌷 **Tulip - FFA Core**
+# 🌷 **FFA Core+**
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3507936ade234ae7bb280eae37ca04ce)](https://app.codacy.com/gh/hmEmmy/Tulip?utm_source=github.com&utm_medium=referral&utm_content=hmEmmy/Tulip&utm_campaign=Badge_Grade_Settings)
 
 **A Minemen-styled Free For All (FFA) plugin for Spigot 1.8.8 — fully configurable and easy to use!**
 
-> Inspired by **Minemen's practice spawn FFA**, this plugin offers a highly customizable FFA experience for server owners. Whether you're running a small community or a large server, Tulip is designed to be intuitive and performant, bringing dynamic features to your PvP world.
+> Inspired by **Minemen's practice spawn FFA**, this plugin offers a highly customizable FFA experience for server owners. Whether you're running a small community or a large server, FFA Core+ is designed to be intuitive and performant, bringing dynamic features to your PvP world.
 
 For further questions, feel free to join the [Discord server](https://discord.gg/eT4B65k5E4)!
 

@@ -1,0 +1,16 @@
+ffa:
+  NoDebuff:
+    arena: test
+    maxPlayers: 50
+  Classic:
+    arena: test
+    maxPlayers: 50
+  Soup:
+    arena: test
+    maxPlayers: 50
+  FistFight:
+    arena: test
+    maxPlayers: 50
+  Archer:
+    arena: test
+    maxPlayers: 50
